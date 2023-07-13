@@ -9,7 +9,7 @@
   --slatecolor: #434455;
 }
 
-.link-logo {
+.logo-link {
   text-decoration: none;
   /*font-family: "raleway", sans-serif;*/
   font-size: 26px;
@@ -17,19 +17,19 @@
   font-weight: 800;
 }
 
-.web-logo {
+.logo {
   color: var(--iris);
 }
 
-.studio-logo {
+.studio {
   color: var(--navyblue);
 }
 
-.studio-logo2 {
+.footer {
   color: var(--whitecolor);
 }
 
-.navbar .pages {
+.nav-menu .page {
   color: var(--navcolor);
   text-decoration: none;
   font-weight: 500;
@@ -38,19 +38,19 @@
   letter-spacing: 0.05em;
 }
 
-.lists {
+.list {
   list-style-type: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.navbar .pages.currentoption,
-.contact-info .info:hover,
-.contact-info .info:focus {
+.nav-menu .page:hover,
+.nav-menu .page:focus,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
   color: var(--oceancolor);
 }
 
-.contact-info .info {
+.contacts-menu .item {
   color: var(--navcolor);
   font-weight: 500;
   font-size: 16px;
@@ -59,7 +59,7 @@
   text-decoration: none;
 }
 
-.bg-section1 {
+.bg-hero {
   background-color: var(--navyblue);
   text-align: center;
   width: 1440px;
@@ -69,7 +69,7 @@
   top: 72px;
 }
 
-.h1-title {
+.hero-title {
   color: var(--whitecolor);
   font-size: 50px;
   font-weight: 700;
@@ -78,14 +78,14 @@
   letter-spacing: 0.05em;
 }
 
-.btn {
+.button {
   cursor: pointer;
   border-color: transparent;
   letter-spacing: 0.05em;
   font-family: inherit;
 }
 
-.btn.primary {
+.button.primary {
   background-color: var(--oceancolor);
   color: var(--whitecolor);
   font-size: 16px;
@@ -95,12 +95,12 @@
   letter-spacing: 0.05em;
 }
 
-.btn.primary:hover,
-.btn.primary:focus {
+.button.primary:hover,
+.button.primary:focus {
   background-color: hotpink;
 }
 
-.btn.filter {
+.button.filter {
   background-color: var(--whitecolor);
   color: var(--navyblue);
   font-weight: 500;
@@ -109,21 +109,21 @@
   padding: 10px;
 }
 
-.btn.filter:hover,
-.btn.filter:focus,
-.btn.filter.primary {
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
   background-color: var(--oceancolor);
   color: var(--whitecolor);
 }
 
-.desclist.titlelist {
+.description.title {
   font-weight: 800;
   font-size: 14px;
   line-height: 1.5;
   color: var(--slatecolor);
 }
 
-.sectiontitle {
+.section-title {
   text-align: center;
   color: var(--navyblue);
   font-size: 36px;
@@ -131,7 +131,7 @@
   line-height: 1.5;
   letter-spacing: 0.05em;
 }
-.teamname {
+.name {
   color: var(--navyblue);
   font-weight: 800;
   font-size: 20px;
@@ -148,22 +148,22 @@
   letter-spacing: 0.05em;
 }
 
-.footerbg {
+.bg-footer {
   background-color: var(--navyblue);
 }
 
-.finpart {
+.footer-description {
   color: var(--whitecolor);
   width: 265px;
   height: 60px;
   top: 3300pxq;
 }
 
-.pictures {
+.project {
   text-decoration: none;
 }
 
-.pictures.imgdesclists {
+.project.name {
   color: var(--navyblue);
   font-weight: 700;
   font-size: 18px;
@@ -171,7 +171,7 @@
   letter-spacing: 0.06em;
 }
 
-.pictures.usagelist {
+.pictures.type {
   color: var(--slatecolor);
   font-weight: 700;
   font-size: 18px;
