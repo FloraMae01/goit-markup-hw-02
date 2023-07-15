@@ -4,177 +4,187 @@
   --iris: #4d5ae5;
   --navyblue: #2e2f42;
   --navcolor: black;
-  --oceancolor: #2196f3;
+  --oceancolor: #404bbf;
   --whitecolor: white;
   --slatecolor: #434455;
+  --cloud: #f4f4fd;
 }
-
+/* Checked */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--slatecolor);
+}
+/* Checked */
 .logo-link {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
-  /*font-family: "raleway", sans-serif;*/
-  font-size: 26px;
-  line-height: 1.5;
+  font-size: 0;
+  line-height: 1.17;
   font-weight: 800;
+  letter-spacing: 0.04em;
 }
-
+/* Checked */
+.logo-link > span {
+  font-size: 18px;
+}
+/* Checked */
 .logo {
   color: var(--iris);
 }
-
+/* Checked */
 .studio {
   color: var(--navyblue);
 }
-
-.footer {
-  color: var(--whitecolor);
+/* Checked */
+.studio-footer {
+  color: var(--cloud);
 }
-
+/* Checked */
 .nav-menu .page {
   color: var(--navcolor);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
-
+/* Checked */
 .list {
   list-style-type: none;
 }
-
+/* Checked */
 .nav-menu .page:hover,
 .nav-menu .page:focus,
 .nav-menu .page.current,
 .contacts-menu .item:hover,
 .contacts-menu .item:focus {
-  color: var(--oceancolor);
+  color: var(--iris);
 }
-
+/* Checked */
 .contacts-menu .item {
-  color: var(--navcolor);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
+  color: var(--slatecolor);
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
-
+/* Checked */
 .bg-hero {
   background-color: var(--navyblue);
-  text-align: center;
-  width: 1440px;
-  height: 600px;
-  line-height: 60px;
-  left: 0px;
-  top: 72px;
 }
-
+/* Checked */
 .hero-title {
   color: var(--whitecolor);
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 1.5;
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
+}
+/* Checked */
+.bg-team {
+  background-color: var(--cloud);
 }
 
+/* Checked */
 .button {
   cursor: pointer;
   border-color: transparent;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   font-family: inherit;
-}
-
-.button.primary {
-  background-color: var(--oceancolor);
-  color: var(--whitecolor);
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  text-align: center;
+  border-radius: 4px;
+  font-size: 16px;
+}
+/* Checked */
+.button.primary {
+  background-color: var(--iris);
+  color: var(--whitecolor);
+  line-height: 1.87;
   letter-spacing: 0.05em;
 }
-
+/* Checked */
 .button.primary:hover,
 .button.primary:focus {
-  background-color: hotpink;
+  background-color: var(--oceancolor);
 }
-
+/* Checked */
 .button.filter {
-  background-color: var(--whitecolor);
-  color: var(--navyblue);
+  background-color: var(--cloud);
+  color: var(--iris);
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
-  padding: 10px;
 }
-
+/* Checked */
 .button.filter:hover,
 .button.filter:focus,
 .button.filter.current {
   background-color: var(--oceancolor);
-  color: var(--whitecolor);
+  color: var(--cloud);
 }
-
-.description.title {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 1.5;
-  color: var(--slatecolor);
-}
-
+/* Checked */
 .section-title {
   text-align: center;
   color: var(--navyblue);
   font-size: 36px;
-  font-weight: 900;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
+  line-height: 1.17;
 }
-.name {
-  color: var(--navyblue);
-  font-weight: 800;
+/* Checked */
+.benefits .title {
   font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: var(--navyblue);
 }
-
-.position {
+/* Checked */
+.benefits .description {
+  color: var(--slatecolor);
+  line-height: 1.71;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Checked */
+.team .name {
+  color: var(--navyblue);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Checked */
+.team .position {
   color: var(--slatecolor);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.05em;
+  text-align: center;
 }
-
-.bg-footer {
+/* Checked */
+.page-footer.bg-footer {
   background-color: var(--navyblue);
 }
-
+/* Checked */
 .footer-description {
-  color: var(--whitecolor);
-  width: 265px;
-  height: 60px;
-  top: 3300pxq;
+  color: var(--cloud);
 }
-
+/* Checked */
 .project {
   text-decoration: none;
 }
-
-.project.name {
+/* Checked */
+.project .name {
   color: var(--navyblue);
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
+}
+/* Checked */
+.project.type {
+  color: var(--slatecolor);
+  font-weight: 400;
+  line-height: 1.87;
 }
 
-.pictures.type {
-  color: var(--slatecolor);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+.team.list {
+  text-align: center;
 }
